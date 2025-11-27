@@ -5,13 +5,18 @@ requests==2.31.0
 beautifulsoup4==4.12.2
 
 sentence-transformers==2.2.2
-
-faiss-cpu
-
-google-generativeai==0.3.2
-openai==1.14.2
+transformers==4.37.2       # IMPORTANT FIX
 
 numpy==1.26.4
+faiss-cpu                  # NO VERSION - correct for Render
+
 tqdm==4.66.1
+
+openai==1.14.2
+google-generativeai==0.3.2
+google-api-core==2.17.1
+google-auth==2.23.4
+grpcio==1.59.0
+protobuf==4.24.4
 
 gunicorn==21.2.0
