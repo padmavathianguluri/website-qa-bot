@@ -1,0 +1,9 @@
+flask
+flask-cors
+requests
+beautifulsoup4
+sentence-transformers
+torch
+huggingface_hub
+python-dotenv
+gunicorn
